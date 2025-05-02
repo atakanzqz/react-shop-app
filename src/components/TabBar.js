@@ -4,7 +4,7 @@ import { AuthContext } from '../Contexts/UserControlContext';
 
 function TabBar() {
   const navigate = useNavigate();
-  const {isLogged, setIsLogged} = useContext(AuthContext)
+  const {isLogged} = useContext(AuthContext)
   console.log(isLogged)
 
   return (
