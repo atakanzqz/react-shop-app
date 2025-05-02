@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom'; // Import useParams to access the URL params
 import { ProductsContext } from '../../Contexts/ProductsContext';
+import './ProductDetail.css'
 
 
 function ProductDetail() {
@@ -16,7 +17,7 @@ function ProductDetail() {
 
   return (
     <div className="product-detail">
-      <img src={product.image || 'defaultImage.jpg'} alt={product.name} />
+      <img src={product.image || 'defaultImage.jpg'} alt={product.id} />
       <h1>{product.name}</h1>
       <p>{product.price} TL</p>
       <p>{product.description || 'No description available.'}</p>

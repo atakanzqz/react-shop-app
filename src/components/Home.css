@@ -12,9 +12,12 @@
     align-items: center;
     justify-content: space-between;
     color: white;
+    position: sticky;
     font-size: 18px;
     flex-direction: row;
     padding: 0 20px;
+    top: 0;
+    z-index: 1000;
   }
 
   .Icon {
