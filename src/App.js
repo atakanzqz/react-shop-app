@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import Login from './components/Login/Login';
-import TabBar from './components/TabBar'; // Navigasyon barı ayrı bileşen
+import TabBar from './components/TabBar/TabBar'; // Navigasyon barı ayrı bileşen
 import SignUp from './components/SignUp/SignUp';
 import { AuthProvider } from './Contexts/UserControlContext';
 import Profile from './components/Profile/Profile';

@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AuthContext } from '../Contexts/UserControlContext';
+import { AuthContext } from '../../Contexts/UserControlContext';
+import './TabBar.css'
 
 function TabBar() {
   const navigate = useNavigate();

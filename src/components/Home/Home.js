@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './Home.css';
-import { ProductsContext } from '../Contexts/ProductsContext';
+import { ProductsContext } from '../../Contexts/ProductsContext';
 
 function Home() {
   const { products} = useContext(ProductsContext);
